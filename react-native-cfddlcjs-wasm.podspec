@@ -14,9 +14,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/atomicfinance/react-native-cfddlcjs-wasm.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
+  
   s.resource_bundles = {
     'WASM' => ['resources/*']
   }
+  s.resources = "resources/**/*.{js,wasm}"
 
   s.dependency "React-Core"
 end
