@@ -1,7 +1,7 @@
 {
   "name": "react-native-cfddlcjs-wasm",
   "title": "react-native-cfddlcjs-wasm",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "description": "WebView wrapper to run cfddlcjs-wasm in React Native.",
   "main": "src/index.js",
   "source": "src/index",
