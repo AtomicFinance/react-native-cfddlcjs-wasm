@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   
   s.resource_bundles = {
-    'WASM' => ['resources/*']
+    'CFDDLC_WASM' => ['resources/*']
   }
   s.resources = "resources/**/*.{js,wasm}"
 
