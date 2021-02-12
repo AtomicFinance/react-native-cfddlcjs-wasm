@@ -1,0 +1,46 @@
+{
+  "name": "react-native-cfddlcjs-wasm",
+  "title": "react-native-cfddlcjs-wasm",
+  "version": "0.1.2",
+  "description": "WebView wrapper to run cfddlcjs-wasm in React Native.",
+  "main": "src/index.js",
+  "source": "src/index",
+  "files": [
+    "README.md",
+    "android",
+    "ios",
+    "src",
+    "react-native-cfddlcjs-wasm.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "git clean -d -x -f ./android && git clean -d -x -f ./ios"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "0.61.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomicfinance/react-native-cfddlcjs-wasm.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "webassembly",
+    "wasm",
+    "polyfill",
+    "ios",
+    "android"
+  ],
+  "author": "Steven Zhao <steven@atomic.finance> (https://github.com/zpv/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atomicfinance/react-native-cfddlcjs-wasm/issues"
+  },
+  "homepage": "https://github.com/atomicfinance/react-native-cfddlcjs-wasm#readme"
+}
